@@ -168,7 +168,7 @@ class OpenViduClient {
       );
       return true;
     } catch (e) {
-      logger.i('SEND MESSAGE', e.toString());
+      logger.i('SEND MESSAGE ${e.toString()}');
       return false;
     }
   }
